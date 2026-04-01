@@ -1,0 +1,75 @@
+[2026-03-26 14:35:26 UTC] queue started; waiting for VQ-VAE pid 26967
+[2026-03-26 14:35:26 UTC] VQ-VAE still running
+[2026-03-26 14:36:26 UTC] VQ-VAE still running
+[2026-03-26 14:37:26 UTC] VQ-VAE still running
+[2026-03-26 14:38:26 UTC] VQ-VAE still running
+[2026-03-26 14:39:26 UTC] VQ-VAE still running
+[2026-03-26 14:40:26 UTC] VQ-VAE still running
+[2026-03-26 14:41:26 UTC] VQ-VAE still running
+[2026-03-26 14:42:26 UTC] VQ-VAE still running
+[2026-03-26 14:43:26 UTC] VQ-VAE still running
+[2026-03-26 14:44:26 UTC] VQ-VAE still running
+[2026-03-26 14:45:26 UTC] VQ-VAE still running
+[2026-03-26 14:46:26 UTC] VQ-VAE still running
+[2026-03-26 14:47:26 UTC] VQ-VAE still running
+[2026-03-26 14:48:27 UTC] VQ-VAE still running
+[2026-03-26 14:49:27 UTC] VQ-VAE still running
+[2026-03-26 14:50:27 UTC] VQ-VAE still running
+[2026-03-26 14:51:27 UTC] VQ-VAE still running
+[2026-03-26 14:52:27 UTC] VQ-VAE still running
+[2026-03-26 14:53:27 UTC] VQ-VAE still running
+[2026-03-26 14:54:27 UTC] VQ-VAE still running
+[2026-03-26 14:55:27 UTC] VQ-VAE still running
+[2026-03-26 14:56:27 UTC] VQ-VAE still running
+[2026-03-26 14:57:27 UTC] VQ-VAE still running
+[2026-03-26 14:58:27 UTC] VQ-VAE still running
+[2026-03-26 14:59:27 UTC] VQ-VAE still running
+[2026-03-26 15:00:27 UTC] VQ-VAE still running
+[2026-03-26 15:01:27 UTC] VQ-VAE still running
+[2026-03-26 15:02:27 UTC] VQ-VAE still running
+[2026-03-26 15:03:27 UTC] VQ-VAE still running
+[2026-03-26 15:04:27 UTC] VQ-VAE still running
+[2026-03-26 15:05:27 UTC] VQ-VAE still running
+[2026-03-26 15:06:27 UTC] VQ-VAE still running
+[2026-03-26 15:07:27 UTC] VQ-VAE still running
+[2026-03-26 15:08:27 UTC] VQ-VAE still running
+[2026-03-26 15:09:27 UTC] VQ-VAE still running
+[2026-03-26 15:10:27 UTC] VQ-VAE still running
+[2026-03-26 15:11:27 UTC] VQ-VAE still running
+[2026-03-26 15:12:27 UTC] VQ-VAE still running
+[2026-03-26 15:13:27 UTC] VQ-VAE still running
+[2026-03-26 15:14:27 UTC] VQ-VAE still running
+[2026-03-26 15:15:27 UTC] VQ-VAE still running
+[2026-03-26 15:16:27 UTC] VQ-VAE still running
+[2026-03-26 15:17:27 UTC] VQ-VAE still running
+[2026-03-26 15:18:27 UTC] VQ-VAE still running
+[2026-03-26 15:19:27 UTC] VQ-VAE still running
+[2026-03-26 15:20:27 UTC] VQ-VAE still running
+[2026-03-26 15:21:27 UTC] VQ-VAE still running
+[2026-03-26 15:22:27 UTC] VQ-VAE still running
+[2026-03-26 15:23:27 UTC] VQ-VAE still running
+[2026-03-26 15:24:27 UTC] VQ-VAE still running
+[2026-03-26 15:25:27 UTC] VQ-VAE still running
+[2026-03-26 15:26:27 UTC] VQ-VAE still running
+[2026-03-26 15:27:27 UTC] VQ-VAE still running
+[2026-03-26 15:28:27 UTC] VQ-VAE still running
+[2026-03-26 15:29:27 UTC] VQ-VAE still running
+[2026-03-26 15:30:27 UTC] VQ-VAE still running
+[2026-03-26 15:31:27 UTC] VQ-VAE still running
+[2026-03-26 15:32:27 UTC] VQ-VAE still running
+[2026-03-26 15:33:27 UTC] detected VQ-VAE pid 26967 exit
+[2026-03-26 15:33:28 UTC] starting physics tokenization
+/workspace/scripts/tokenize_physics.py:36: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  payload = torch.load(checkpoint_path, map_location="cpu")
+Total token count: 172963315
+Sequence count: 470000
+Sequence length mean/std: 368.01 / 199.21
+Top token summary: [{'token_id': 4096, 'count': 21792, 'frequency': 0.010896}, {'token_id': 4097, 'count': 5419, 'frequency': 0.0027095}, {'token_id': 2400, 'count': 2245, 'frequency': 0.0011225}, {'token_id': 1678, 'count': 2087, 'frequency': 0.0010435}, {'token_id': 2193, 'count': 1901, 'frequency': 0.0009505}]
+[2026-03-26 15:35:40 UTC] starting shuffled tokenization
+/workspace/scripts/tokenize_physics.py:36: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  payload = torch.load(checkpoint_path, map_location="cpu")
+Total token count: 172963315
+Sequence count: 470000
+Sequence length mean/std: 368.01 / 199.21
+Top token summary: [{'token_id': 4096, 'count': 21792, 'frequency': 0.010896}, {'token_id': 4097, 'count': 5419, 'frequency': 0.0027095}, {'token_id': 2400, 'count': 2245, 'frequency': 0.0011225}, {'token_id': 1678, 'count': 2087, 'frequency': 0.0010435}, {'token_id': 2193, 'count': 1901, 'frequency': 0.0009505}]
+[2026-03-26 15:37:51 UTC] tokenization queue completed successfully

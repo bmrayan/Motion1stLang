@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Environments
+.venv/
+venv/
+
+# Large generated assets (not committed)
+data/
+models/
+checkpoints/
+repos/
+
+# Local runtime artifacts
+*.tmp
+*.swp
+*.swo

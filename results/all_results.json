@@ -1,0 +1,359 @@
+{
+  "schema_version": "1.0",
+  "canonical_results_file": true,
+  "generated_at_utc": "2026-04-01T10:49:39Z",
+  "experiment": "motion-is-the-first-language",
+  "tier1_status": "complete",
+  "best_by_final_val_perplexity": {
+    "condition": "shuffled",
+    "final_val_perplexity": 150.2825494474985,
+    "final_val_loss": 5.012517185211181,
+    "tokens_seen": 2000000000
+  },
+  "summaries": {
+    "final_perplexities": {
+      "nca": {
+        "final_val_loss": 5.030725100040436,
+        "final_val_perplexity": 153.0439446428236,
+        "run_name": "nca_lang",
+        "steps": 3815,
+        "tokens_seen": 2000000000
+      },
+      "physics": {
+        "final_val_loss": 5.033169100284576,
+        "final_val_perplexity": 153.4184415297263,
+        "run_name": "physics_lang",
+        "steps": 3815,
+        "tokens_seen": 2000000000
+      },
+      "scratch": {
+        "final_val_loss": 5.054974834918976,
+        "final_val_perplexity": 156.80058439510748,
+        "run_name": "scratch_baseline",
+        "steps": 3815,
+        "tokens_seen": 2000000000
+      },
+      "shuffled": {
+        "final_val_loss": 5.012517185211181,
+        "final_val_perplexity": 150.2825494474985,
+        "run_name": "shuffled_lang",
+        "steps": 3815,
+        "tokens_seen": 2000000000
+      }
+    },
+    "convergence_speedups": {
+      "nca": {
+        "speedup_vs_scratch": 1.2715657552083333,
+        "tokens_to_threshold": 1572864000
+      },
+      "physics": {
+        "speedup_vs_scratch": 1.2715657552083333,
+        "tokens_to_threshold": 1572864000
+      },
+      "scratch_final_perplexity": 156.80058439510748,
+      "shuffled": {
+        "speedup_vs_scratch": 1.3623918805803572,
+        "tokens_to_threshold": 1468006400
+      }
+    },
+    "gzip_complexity": {
+      "nca": {
+        "gzip_complexity_percent": 83.427525,
+        "path": "/workspace/data/nca_tokenized/tokens.bin",
+        "sample_tokens": 2000000
+      },
+      "physics": {
+        "gzip_complexity_percent": 55.52215,
+        "path": "/workspace/data/physics_tokenized/tokens.bin",
+        "sample_tokens": 2000000
+      },
+      "shuffled": {
+        "gzip_complexity_percent": 76.0432,
+        "path": "/workspace/data/shuffled_tokenized/tokens.bin",
+        "sample_tokens": 2000000
+      }
+    },
+    "physics_data_quality": {
+      "contact_rows_per_scene": {
+        "max": 128,
+        "mean": 0.8856425531914893,
+        "median": 0,
+        "min": 0,
+        "std": 2.0694029953921884,
+        "zero_fraction": 0.6093914893617022
+      },
+      "feature_constant_like_dims": [
+        19
+      ],
+      "feature_dim_mean": [
+        -0.0003074592677876353,
+        -0.0010129077127203345,
+        0.6739445328712463,
+        -0.00014227085921447724,
+        -0.00039261498022824526,
+        -0.46588727831840515,
+        0.0012390143238008022,
+        0.008966087363660336,
+        -0.6001989245414734,
+        0.00246823625639081,
+        0.0018160215113312006,
+        0.0016127577982842922,
+        -0.014529485255479813,
+        -0.005394007079303265,
+        -0.0060705202631652355,
+        1.5628353357315063,
+        13.182778358459473,
+        1.2573715448379517,
+        0.06876397877931595,
+        1,
+        1.1134109497070312,
+        0.6739445328712463,
+        2.1883463859558105,
+        19.657564163208008,
+        0.42475414276123047,
+        426.6985168457031,
+        2.124542236328125,
+        -0.46588727831840515
+      ],
+      "feature_dim_std": [
+        1.6018599271774292,
+        1.6004899740219116,
+        0.5344448685646057,
+        0.6328443288803101,
+        0.632861316204071,
+        1.8321154117584229,
+        3.874246835708618,
+        3.742173433303833,
+        35.45649719238281,
+        1.2888038158416748,
+        1.3070762157440186,
+        0.8281872272491455,
+        8.092222213745117,
+        7.410782814025879,
+        2.641523838043213,
+        1.3904163837432861,
+        33.373817443847656,
+        1.573075294494629,
+        0.05373815447092056,
+        0,
+        11.228963851928711,
+        0.5344448685646057,
+        3.4843151569366455,
+        576.9672241210938,
+        0.2646329700946808,
+        1501.7017822265625,
+        0.7836019396781921,
+        1.8321154117584229
+      ],
+      "feature_named_stats": {
+        "acceleration_mag": {
+          "max": 464.8506774902344,
+          "mean": 13.207213401794434,
+          "median": 9.809999465942383,
+          "min": 0,
+          "std": 33.35595703125
+        },
+        "angular_speed": {
+          "max": 66.60015869140625,
+          "mean": 1.2574336528778076,
+          "median": 1.0696032047271729,
+          "min": 0,
+          "std": 1.573118805885315
+        },
+        "curvature": {
+          "max": 108570.546875,
+          "mean": 19.660049438476562,
+          "median": 1.1858066320419312,
+          "min": 0,
+          "std": 577.1941528320312
+        },
+        "height": {
+          "max": 2.9066383838653564,
+          "mean": 0.6739422678947449,
+          "median": 0.4463096857070923,
+          "min": -0.12053251266479492,
+          "std": 0.5344541072845459
+        },
+        "jerk_mag": {
+          "max": 16156.412109375,
+          "mean": 426.72442626953125,
+          "median": 0,
+          "min": 0,
+          "std": 1500.11181640625
+        },
+        "radial_dist": {
+          "max": 4.038278579711914,
+          "mean": 2.12453556060791,
+          "median": 2.2244296073913574,
+          "min": 0.005839409772306681,
+          "std": 0.7836164832115173
+        },
+        "speed": {
+          "max": 9.464728355407715,
+          "mean": 1.5625741481781006,
+          "median": 1.2468165159225464,
+          "min": 0.00017919005767907947,
+          "std": 1.3904780149459839
+        }
+      },
+      "finite_failures": 0,
+      "frames_per_scene": {
+        "max": 150,
+        "mean": 89.99648510638298,
+        "median": 90,
+        "min": 30,
+        "std": 34.89562284912682
+      },
+      "interaction_named_stats": {
+        "closing_speed": {
+          "max": 9.88787841796875,
+          "mean": 0.18750989437103271,
+          "median": 0,
+          "min": 0,
+          "std": 0.6124100685119629
+        },
+        "contact_flag": {
+          "max": 1,
+          "mean": 0.2806028425693512,
+          "median": 0,
+          "min": 0,
+          "std": 0.44929376244544983
+        },
+        "distance": {
+          "max": 0.9675116539001465,
+          "mean": 0.631202220916748,
+          "median": 0.636187732219696,
+          "min": 0.2510191798210144,
+          "std": 0.09829852730035782
+        },
+        "impulse_magnitude": {
+          "max": 37.8306999206543,
+          "mean": 0.9725598692893982,
+          "median": 0,
+          "min": 0,
+          "std": 2.682577133178711
+        },
+        "relative_angular_velocity_norm": {
+          "max": 104.03185272216797,
+          "mean": 2.118488311767578,
+          "median": 1.261061191558838,
+          "min": 0,
+          "std": 3.1897010803222656
+        },
+        "relative_velocity_norm": {
+          "max": 13.099326133728027,
+          "mean": 1.5410130023956299,
+          "median": 1.0024898052215576,
+          "min": 0,
+          "std": 1.8054345846176147
+        }
+      },
+      "interaction_rows_per_scene": {
+        "max": 385,
+        "mean": 3.130963829787234,
+        "median": 0,
+        "min": 0,
+        "std": 10.42926241077164
+      },
+      "num_feature_rows": 169142349,
+      "num_interaction_rows": 1471553,
+      "num_objects": 1879413,
+      "num_scenes": 470000,
+      "num_shards": 47,
+      "objects_per_scene": {
+        "max": 6,
+        "mean": 3.998751063829787,
+        "median": 4,
+        "min": 2,
+        "std": 1.4142212855185579
+      },
+      "scene_consistency_failures": 0,
+      "tokens_per_scene_estimated": {
+        "max": 1155,
+        "mean": 368.0070531914894,
+        "median": 322,
+        "min": 63,
+        "std": 199.21399128222126,
+        "total_estimated": 172963315
+      },
+      "trajectory_smoothness_dv_per_frame": {
+        "max": 1.2172914743423462,
+        "mean": 0.4737466464961317,
+        "median": 0.536914736032486,
+        "min": 0.027941947802901268,
+        "std": 0.1799707109470425
+      }
+    }
+  },
+  "latex_tables": {
+    "comparison_results_tex": "\\begin{table}[t]\n\\centering\n\\caption{Pre-pre-training comparison at matched 164M tokens (GPT-2 Small). Lower loss is better.}\n\\label{tab:ppt_comparison}\n\\begin{tabular}{lrrrrl}\n\\hline\nMethod & Initial Loss & Final Loss & $\\Delta$ Loss & Sample Gzip (\\%) & Status \\\\\n\\hline\nPhysics & 34.4938 & 8.0187 & -26.4750 & 66.2500 & Complete \\\\\nShuffled-Temporal & 34.7027 & 19.8498 & -14.8529 & 66.8750 & Complete \\\\\nNCA (official data) & 37.4668 & 24.6376 & -12.8291 & 103.6806 & Complete \\\\\n\\hline\n\\end{tabular}\n\\end{table}\n\n\\begin{table}[t]\n\\centering\n\\caption{Language pre-training comparison snapshot (OpenWebText, 2B-token target).}\n\\label{tab:lang_progress_snapshot}\n\\begin{tabular}{lrrl}\n\\hline\nMethod & Tokens Seen & Latest Val PPL & Status \\\\\n\\hline\nScratch & 2,000,000,000 & 156.8006 & Complete \\\\\nPhysics & 367,001,600 & 343.6753 & In progress \\\\\nShuffled-Temporal & -- & -- & Queued \\\\\nNCA & -- & -- & Queued \\\\\n\\hline\n\\end{tabular}\n\\end{table}\n\n% Snapshot timestamp: 2026-03-31 (UTC).\n% Source files:\n% /workspace/models/physics_ppt/training_summary.json\n% /workspace/models/shuffled_ppt/training_summary.json\n% /workspace/models/nca_ppt/training_summary.json\n% /workspace/checkpoints/scratch/training_summary.json\n% /workspace/checkpoints/physics/logs/train_metrics.csv\n"
+  },
+  "artifact_manifest": [
+    {
+      "path": "/workspace/results/comparison_results.tex",
+      "sha256": "9a89571492833d879ac136caf8df7e152acd223a530adbd0bd70d7f4670e87b1",
+      "size_bytes": 1276,
+      "mtime_utc": "2026-03-31 08:52:42.578074117 +0000"
+    },
+    {
+      "path": "/workspace/results/convergence_curves.png",
+      "sha256": "6a41d4bee34c8c6ebb51cd77a587e29a49d91494b8b4db2823c5e4f93db070f8",
+      "size_bytes": 96802,
+      "mtime_utc": "2026-04-01 07:35:40.526476180 +0000"
+    },
+    {
+      "path": "/workspace/results/convergence_curves_early.png",
+      "sha256": "fa70cbe272dad30f181a8832ea88a9d58a4c81e6e5e256e84afd1e061a74f021",
+      "size_bytes": 110697,
+      "mtime_utc": "2026-04-01 07:35:40.930476162 +0000"
+    },
+    {
+      "path": "/workspace/results/convergence_speedups.json",
+      "sha256": "4b9433f239010bdb6c165f123c96c6db11505d33b0e2b5511d15fa218fd27fa7",
+      "size_bytes": 367,
+      "mtime_utc": "2026-04-01 07:35:38.978476248 +0000"
+    },
+    {
+      "path": "/workspace/results/final_perplexities.json",
+      "sha256": "40ac77205ae5f4b2638a4c87356d5a5ee020efd1ff9626f8010b405cd9d03efe",
+      "size_bytes": 757,
+      "mtime_utc": "2026-04-01 07:35:41.030476157 +0000"
+    },
+    {
+      "path": "/workspace/results/gzip_complexity.json",
+      "sha256": "f13ef18f2700df425b93903c1557a6a03e103b61837281409662db2206eb063c",
+      "size_bytes": 446,
+      "mtime_utc": "2026-04-01 07:35:34.310476453 +0000"
+    },
+    {
+      "path": "/workspace/results/physics_data_quality.json",
+      "sha256": "f7877ebbc855fc597109175fb284479ebe295399de7fc1ffbc22b35f98e9ea11",
+      "size_bytes": 5087,
+      "mtime_utc": "2026-03-26 10:32:44.476816511 +0000"
+    },
+    {
+      "path": "/workspace/results/relative_improvement.png",
+      "sha256": "7e9f3801873473f4c7c6778169e3962e0b86d49dab6dc0c1b13434e3dc9d048b",
+      "size_bytes": 120848,
+      "mtime_utc": "2026-04-01 07:35:40.734476170 +0000"
+    },
+    {
+      "path": "/workspace/results/smoke/convergence_curves.png",
+      "sha256": "7769dfb48f7e0ac7d4404e56e8da978f9be874a1ad3e4ead2abd8ac3d05c5266",
+      "size_bytes": 122113,
+      "mtime_utc": "2026-03-26 07:12:00.673346395 +0000"
+    },
+    {
+      "path": "/workspace/results/smoke/convergence_curves_early.png",
+      "sha256": "6e2a6f90d1dd74a39a887e26e07fa26b1c829d454833dc87c59cb51c3ff51e24",
+      "size_bytes": 126198,
+      "mtime_utc": "2026-03-26 07:12:01.033346379 +0000"
+    },
+    {
+      "path": "/workspace/results/smoke/relative_improvement.png",
+      "sha256": "f39d4a81d78ed45c85c74cda30bbe971f21847ad94660ae9b9bb8a0aa6f10649",
+      "size_bytes": 98466,
+      "mtime_utc": "2026-03-26 07:12:00.853346387 +0000"
+    }
+  ]
+}

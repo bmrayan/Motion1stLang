@@ -1,0 +1,262 @@
+loaded_shard=physics_shard_00000.npz selected_scenes_so_far=1087
+loaded_shard=physics_shard_00001.npz selected_scenes_so_far=2177
+loaded_shard=physics_shard_00002.npz selected_scenes_so_far=3244
+loaded_shard=physics_shard_00003.npz selected_scenes_so_far=4269
+loaded_shard=physics_shard_00004.npz selected_scenes_so_far=5364
+loaded_shard=physics_shard_00005.npz selected_scenes_so_far=6398
+loaded_shard=physics_shard_00006.npz selected_scenes_so_far=7510
+loaded_shard=physics_shard_00007.npz selected_scenes_so_far=8543
+loaded_shard=physics_shard_00008.npz selected_scenes_so_far=9583
+loaded_shard=physics_shard_00009.npz selected_scenes_so_far=10687
+loaded_shard=physics_shard_00010.npz selected_scenes_so_far=11743
+loaded_shard=physics_shard_00011.npz selected_scenes_so_far=12831
+loaded_shard=physics_shard_00012.npz selected_scenes_so_far=13884
+loaded_shard=physics_shard_00013.npz selected_scenes_so_far=14966
+loaded_shard=physics_shard_00014.npz selected_scenes_so_far=16014
+loaded_shard=physics_shard_00015.npz selected_scenes_so_far=17137
+loaded_shard=physics_shard_00016.npz selected_scenes_so_far=18119
+loaded_shard=physics_shard_00017.npz selected_scenes_so_far=19178
+loaded_shard=physics_shard_00018.npz selected_scenes_so_far=20212
+loaded_shard=physics_shard_00019.npz selected_scenes_so_far=21297
+loaded_shard=physics_shard_00020.npz selected_scenes_so_far=22392
+loaded_shard=physics_shard_00021.npz selected_scenes_so_far=23460
+loaded_shard=physics_shard_00022.npz selected_scenes_so_far=24519
+loaded_shard=physics_shard_00023.npz selected_scenes_so_far=25598
+loaded_shard=physics_shard_00024.npz selected_scenes_so_far=26640
+loaded_shard=physics_shard_00025.npz selected_scenes_so_far=27698
+loaded_shard=physics_shard_00026.npz selected_scenes_so_far=28771
+loaded_shard=physics_shard_00027.npz selected_scenes_so_far=29836
+loaded_shard=physics_shard_00028.npz selected_scenes_so_far=30935
+loaded_shard=physics_shard_00029.npz selected_scenes_so_far=32018
+loaded_shard=physics_shard_00030.npz selected_scenes_so_far=33054
+loaded_shard=physics_shard_00031.npz selected_scenes_so_far=34132
+loaded_shard=physics_shard_00032.npz selected_scenes_so_far=35178
+loaded_shard=physics_shard_00033.npz selected_scenes_so_far=36237
+loaded_shard=physics_shard_00034.npz selected_scenes_so_far=37314
+loaded_shard=physics_shard_00035.npz selected_scenes_so_far=38425
+loaded_shard=physics_shard_00036.npz selected_scenes_so_far=39457
+loaded_shard=physics_shard_00037.npz selected_scenes_so_far=40495
+loaded_shard=physics_shard_00038.npz selected_scenes_so_far=41532
+loaded_shard=physics_shard_00039.npz selected_scenes_so_far=42567
+loaded_shard=physics_shard_00040.npz selected_scenes_so_far=43653
+loaded_shard=physics_shard_00041.npz selected_scenes_so_far=44693
+loaded_shard=physics_shard_00042.npz selected_scenes_so_far=45744
+loaded_shard=physics_shard_00043.npz selected_scenes_so_far=46816
+loaded_shard=physics_shard_00044.npz selected_scenes_so_far=47865
+loaded_shard=physics_shard_00045.npz selected_scenes_so_far=48943
+loaded_shard=physics_shard_00046.npz selected_scenes_so_far=50000
+collected_features=(3199474, 28) collected_interactions=(123726, 13)
+kinematic_vqvae warmup_epoch=1/5 recon=0.570083
+kinematic_vqvae warmup_epoch=2/5 recon=0.109882
+kinematic_vqvae warmup_epoch=3/5 recon=0.026583
+kinematic_vqvae warmup_epoch=4/5 recon=0.012741
+kinematic_vqvae warmup_epoch=5/5 recon=0.009782
+kinematic_vqvae initialized_codebook sample_size=65536 kmeans_iters=20
+kinematic_vqvae epoch=1/100 train_loss=0.493848 val_recon=0.271801 util=99.95%
+kinematic_vqvae epoch=2/100 train_loss=0.551004 val_recon=0.286662 util=100.00%
+kinematic_vqvae epoch=3/100 train_loss=0.571541 val_recon=0.288318 util=100.00%
+kinematic_vqvae epoch=4/100 train_loss=0.586369 val_recon=0.290317 util=100.00%
+kinematic_vqvae epoch=5/100 train_loss=0.614297 val_recon=0.286240 util=99.95%
+kinematic_vqvae epoch=6/100 train_loss=0.634041 val_recon=0.325746 util=99.98%
+kinematic_vqvae epoch=7/100 train_loss=0.661688 val_recon=0.313821 util=99.95%
+kinematic_vqvae epoch=8/100 train_loss=0.688109 val_recon=0.319529 util=99.98%
+kinematic_vqvae epoch=9/100 train_loss=0.712249 val_recon=0.337977 util=99.98%
+kinematic_vqvae epoch=10/100 train_loss=0.722826 val_recon=0.363178 util=100.00%
+kinematic_vqvae epoch=11/100 train_loss=0.742158 val_recon=0.358010 util=100.00%
+kinematic_vqvae epoch=12/100 train_loss=0.744027 val_recon=0.370606 util=100.00%
+kinematic_vqvae epoch=13/100 train_loss=0.749577 val_recon=0.363197 util=99.95%
+kinematic_vqvae epoch=14/100 train_loss=0.750264 val_recon=0.380733 util=99.98%
+kinematic_vqvae epoch=15/100 train_loss=0.750614 val_recon=0.369912 util=100.00%
+kinematic_vqvae epoch=16/100 train_loss=0.741910 val_recon=0.340596 util=99.93%
+kinematic_vqvae epoch=17/100 train_loss=0.747949 val_recon=0.377207 util=99.98%
+kinematic_vqvae epoch=18/100 train_loss=0.737530 val_recon=0.387043 util=100.00%
+kinematic_vqvae epoch=19/100 train_loss=0.734004 val_recon=0.372194 util=100.00%
+kinematic_vqvae epoch=20/100 train_loss=0.734348 val_recon=0.356436 util=99.98%
+kinematic_vqvae epoch=21/100 train_loss=0.739211 val_recon=0.366318 util=99.98%
+kinematic_vqvae epoch=22/100 train_loss=0.736021 val_recon=0.373379 util=99.98%
+kinematic_vqvae epoch=23/100 train_loss=0.733321 val_recon=0.390808 util=99.95%
+kinematic_vqvae epoch=24/100 train_loss=0.726570 val_recon=0.350164 util=99.98%
+kinematic_vqvae epoch=25/100 train_loss=0.723601 val_recon=0.354957 util=100.00%
+kinematic_vqvae epoch=26/100 train_loss=0.726474 val_recon=0.353328 util=100.00%
+kinematic_vqvae epoch=27/100 train_loss=0.728432 val_recon=0.355844 util=100.00%
+kinematic_vqvae epoch=28/100 train_loss=0.727052 val_recon=0.346432 util=99.98%
+kinematic_vqvae epoch=29/100 train_loss=0.717345 val_recon=0.372205 util=100.00%
+kinematic_vqvae epoch=30/100 train_loss=0.723423 val_recon=0.355929 util=99.95%
+kinematic_vqvae epoch=31/100 train_loss=0.714073 val_recon=0.354857 util=100.00%
+kinematic_vqvae epoch=32/100 train_loss=0.711307 val_recon=0.338493 util=100.00%
+kinematic_vqvae epoch=33/100 train_loss=0.701124 val_recon=0.347379 util=100.00%
+kinematic_vqvae epoch=34/100 train_loss=0.705024 val_recon=0.351448 util=99.98%
+kinematic_vqvae epoch=35/100 train_loss=0.703607 val_recon=0.339681 util=100.00%
+kinematic_vqvae epoch=36/100 train_loss=0.705407 val_recon=0.336609 util=99.95%
+kinematic_vqvae epoch=37/100 train_loss=0.698722 val_recon=0.329349 util=99.95%
+kinematic_vqvae epoch=38/100 train_loss=0.699987 val_recon=0.351374 util=100.00%
+kinematic_vqvae epoch=39/100 train_loss=0.696035 val_recon=0.342229 util=99.95%
+kinematic_vqvae epoch=40/100 train_loss=0.694121 val_recon=0.338274 util=99.98%
+kinematic_vqvae epoch=41/100 train_loss=0.702317 val_recon=0.340674 util=99.98%
+kinematic_vqvae epoch=42/100 train_loss=0.697898 val_recon=0.361774 util=100.00%
+kinematic_vqvae epoch=43/100 train_loss=0.700786 val_recon=0.351463 util=99.95%
+kinematic_vqvae epoch=44/100 train_loss=0.709372 val_recon=0.342489 util=99.95%
+kinematic_vqvae epoch=45/100 train_loss=0.703430 val_recon=0.330085 util=99.98%
+kinematic_vqvae epoch=46/100 train_loss=0.699961 val_recon=0.324823 util=99.98%
+kinematic_vqvae epoch=47/100 train_loss=0.693421 val_recon=0.348824 util=99.95%
+kinematic_vqvae epoch=48/100 train_loss=0.689940 val_recon=0.338637 util=99.98%
+kinematic_vqvae epoch=49/100 train_loss=0.689470 val_recon=0.339736 util=100.00%
+kinematic_vqvae epoch=50/100 train_loss=0.691866 val_recon=0.331152 util=100.00%
+kinematic_vqvae epoch=51/100 train_loss=0.690356 val_recon=0.325334 util=100.00%
+kinematic_vqvae epoch=52/100 train_loss=0.708178 val_recon=0.360879 util=100.00%
+kinematic_vqvae epoch=53/100 train_loss=0.692276 val_recon=0.342378 util=99.98%
+kinematic_vqvae epoch=54/100 train_loss=0.687665 val_recon=0.337068 util=99.98%
+kinematic_vqvae epoch=55/100 train_loss=0.693790 val_recon=0.332806 util=99.93%
+kinematic_vqvae epoch=56/100 train_loss=0.699134 val_recon=0.328236 util=99.90%
+kinematic_vqvae epoch=57/100 train_loss=0.695603 val_recon=0.361280 util=99.93%
+kinematic_vqvae epoch=58/100 train_loss=0.694096 val_recon=0.330045 util=99.98%
+kinematic_vqvae epoch=59/100 train_loss=0.687645 val_recon=0.350786 util=99.95%
+kinematic_vqvae epoch=60/100 train_loss=0.705066 val_recon=0.332153 util=100.00%
+kinematic_vqvae epoch=61/100 train_loss=0.704758 val_recon=0.347508 util=99.93%
+kinematic_vqvae epoch=62/100 train_loss=0.689647 val_recon=0.340408 util=100.00%
+kinematic_vqvae epoch=63/100 train_loss=0.697825 val_recon=0.343469 util=99.98%
+kinematic_vqvae epoch=64/100 train_loss=0.698293 val_recon=0.338884 util=99.98%
+kinematic_vqvae epoch=65/100 train_loss=0.705884 val_recon=0.353621 util=99.98%
+kinematic_vqvae epoch=66/100 train_loss=0.712320 val_recon=0.354125 util=100.00%
+kinematic_vqvae epoch=67/100 train_loss=0.704311 val_recon=0.343073 util=99.98%
+kinematic_vqvae epoch=68/100 train_loss=0.710946 val_recon=0.346311 util=100.00%
+kinematic_vqvae epoch=69/100 train_loss=0.712774 val_recon=0.352933 util=100.00%
+kinematic_vqvae epoch=70/100 train_loss=0.708969 val_recon=0.344897 util=99.95%
+kinematic_vqvae epoch=71/100 train_loss=0.707745 val_recon=0.347223 util=100.00%
+kinematic_vqvae epoch=72/100 train_loss=0.711091 val_recon=0.347270 util=99.95%
+kinematic_vqvae epoch=73/100 train_loss=0.705917 val_recon=0.355147 util=99.98%
+kinematic_vqvae epoch=74/100 train_loss=0.723169 val_recon=0.364188 util=99.98%
+kinematic_vqvae epoch=75/100 train_loss=0.718315 val_recon=0.356838 util=99.98%
+kinematic_vqvae epoch=76/100 train_loss=0.720994 val_recon=0.360470 util=99.93%
+kinematic_vqvae epoch=77/100 train_loss=0.719454 val_recon=0.370016 util=99.95%
+kinematic_vqvae epoch=78/100 train_loss=0.714841 val_recon=0.351051 util=99.98%
+kinematic_vqvae epoch=79/100 train_loss=0.723078 val_recon=0.356801 util=99.98%
+kinematic_vqvae epoch=80/100 train_loss=0.723542 val_recon=0.354977 util=99.98%
+kinematic_vqvae epoch=81/100 train_loss=0.734728 val_recon=0.369059 util=100.00%
+kinematic_vqvae epoch=82/100 train_loss=0.737196 val_recon=0.369973 util=99.93%
+kinematic_vqvae epoch=83/100 train_loss=0.717321 val_recon=0.370206 util=99.95%
+kinematic_vqvae epoch=84/100 train_loss=0.723223 val_recon=0.342767 util=99.93%
+kinematic_vqvae epoch=85/100 train_loss=0.721608 val_recon=0.347833 util=99.98%
+kinematic_vqvae epoch=86/100 train_loss=0.715146 val_recon=0.359391 util=100.00%
+kinematic_vqvae epoch=87/100 train_loss=0.729311 val_recon=0.373916 util=99.98%
+kinematic_vqvae epoch=88/100 train_loss=0.728002 val_recon=0.365824 util=100.00%
+kinematic_vqvae epoch=89/100 train_loss=0.714860 val_recon=0.385370 util=99.98%
+kinematic_vqvae epoch=90/100 train_loss=0.712517 val_recon=0.356383 util=99.95%
+kinematic_vqvae epoch=91/100 train_loss=0.716565 val_recon=0.359015 util=100.00%
+kinematic_vqvae epoch=92/100 train_loss=0.711680 val_recon=0.364400 util=100.00%
+kinematic_vqvae epoch=93/100 train_loss=0.719358 val_recon=0.369970 util=100.00%
+kinematic_vqvae epoch=94/100 train_loss=0.703546 val_recon=0.367170 util=99.95%
+kinematic_vqvae epoch=95/100 train_loss=0.709623 val_recon=0.353409 util=99.98%
+kinematic_vqvae epoch=96/100 train_loss=0.706005 val_recon=0.366003 util=99.93%
+kinematic_vqvae epoch=97/100 train_loss=0.703654 val_recon=0.381792 util=100.00%
+kinematic_vqvae epoch=98/100 train_loss=0.714568 val_recon=0.351785 util=99.95%
+kinematic_vqvae epoch=99/100 train_loss=0.717441 val_recon=0.382270 util=99.95%
+kinematic_vqvae epoch=100/100 train_loss=0.722706 val_recon=0.353343 util=99.95%
+kinematic_vqvae: val recon error=0.353343, codebook utilization=99.95%
+interaction_vqvae warmup_epoch=1/5 recon=1.005186
+interaction_vqvae warmup_epoch=2/5 recon=1.000094
+interaction_vqvae warmup_epoch=3/5 recon=0.994589
+interaction_vqvae warmup_epoch=4/5 recon=0.988055
+interaction_vqvae warmup_epoch=5/5 recon=0.979129
+interaction_vqvae initialized_codebook sample_size=16384 kmeans_iters=20
+interaction_vqvae epoch=1/100 train_loss=0.973893 val_recon=0.966768 util=99.12%
+interaction_vqvae epoch=2/100 train_loss=0.962541 val_recon=0.953133 util=98.54%
+interaction_vqvae epoch=3/100 train_loss=0.948047 val_recon=0.936545 util=99.12%
+interaction_vqvae epoch=4/100 train_loss=0.929893 val_recon=0.914471 util=98.93%
+interaction_vqvae epoch=5/100 train_loss=0.907033 val_recon=0.887547 util=99.12%
+interaction_vqvae epoch=6/100 train_loss=0.878393 val_recon=0.855832 util=99.41%
+interaction_vqvae epoch=7/100 train_loss=0.845902 val_recon=0.822031 util=99.02%
+interaction_vqvae epoch=8/100 train_loss=0.813218 val_recon=0.786032 util=98.83%
+interaction_vqvae epoch=9/100 train_loss=0.779092 val_recon=0.752460 util=98.63%
+interaction_vqvae epoch=10/100 train_loss=0.746660 val_recon=0.716036 util=98.63%
+interaction_vqvae epoch=11/100 train_loss=0.711938 val_recon=0.680416 util=99.22%
+interaction_vqvae epoch=12/100 train_loss=0.680635 val_recon=0.646982 util=99.41%
+interaction_vqvae epoch=13/100 train_loss=0.654663 val_recon=0.623073 util=98.93%
+interaction_vqvae epoch=14/100 train_loss=0.634425 val_recon=0.604138 util=99.51%
+interaction_vqvae epoch=15/100 train_loss=0.617432 val_recon=0.583608 util=99.12%
+interaction_vqvae epoch=16/100 train_loss=0.604075 val_recon=0.571929 util=99.02%
+interaction_vqvae epoch=17/100 train_loss=0.591143 val_recon=0.558421 util=99.41%
+interaction_vqvae epoch=18/100 train_loss=0.581864 val_recon=0.546652 util=99.22%
+interaction_vqvae epoch=19/100 train_loss=0.573874 val_recon=0.537360 util=99.51%
+interaction_vqvae epoch=20/100 train_loss=0.564697 val_recon=0.525004 util=99.32%
+interaction_vqvae epoch=21/100 train_loss=0.555626 val_recon=0.515443 util=99.41%
+interaction_vqvae epoch=22/100 train_loss=0.547534 val_recon=0.505380 util=98.93%
+interaction_vqvae epoch=23/100 train_loss=0.540994 val_recon=0.496635 util=98.63%
+interaction_vqvae epoch=24/100 train_loss=0.534795 val_recon=0.486419 util=99.32%
+interaction_vqvae epoch=25/100 train_loss=0.529486 val_recon=0.475192 util=98.73%
+interaction_vqvae epoch=26/100 train_loss=0.520678 val_recon=0.466948 util=99.32%
+interaction_vqvae epoch=27/100 train_loss=0.514450 val_recon=0.455746 util=99.02%
+interaction_vqvae epoch=28/100 train_loss=0.506881 val_recon=0.445619 util=99.12%
+interaction_vqvae epoch=29/100 train_loss=0.500152 val_recon=0.435379 util=99.32%
+interaction_vqvae epoch=30/100 train_loss=0.495319 val_recon=0.428841 util=99.22%
+interaction_vqvae epoch=31/100 train_loss=0.488653 val_recon=0.419334 util=98.83%
+interaction_vqvae epoch=32/100 train_loss=0.485783 val_recon=0.412222 util=99.22%
+interaction_vqvae epoch=33/100 train_loss=0.485018 val_recon=0.408797 util=99.32%
+interaction_vqvae epoch=34/100 train_loss=0.481276 val_recon=0.399975 util=99.71%
+interaction_vqvae epoch=35/100 train_loss=0.482327 val_recon=0.400503 util=99.22%
+interaction_vqvae epoch=36/100 train_loss=0.481579 val_recon=0.392424 util=99.41%
+interaction_vqvae epoch=37/100 train_loss=0.480117 val_recon=0.390330 util=99.22%
+interaction_vqvae epoch=38/100 train_loss=0.480503 val_recon=0.382584 util=99.02%
+interaction_vqvae epoch=39/100 train_loss=0.481229 val_recon=0.378105 util=99.41%
+interaction_vqvae epoch=40/100 train_loss=0.478374 val_recon=0.376131 util=99.32%
+interaction_vqvae epoch=41/100 train_loss=0.483481 val_recon=0.372276 util=99.41%
+interaction_vqvae epoch=42/100 train_loss=0.481333 val_recon=0.367209 util=98.54%
+interaction_vqvae epoch=43/100 train_loss=0.482790 val_recon=0.362685 util=98.54%
+interaction_vqvae epoch=44/100 train_loss=0.482716 val_recon=0.358384 util=99.41%
+interaction_vqvae epoch=45/100 train_loss=0.482638 val_recon=0.353802 util=99.51%
+interaction_vqvae epoch=46/100 train_loss=0.483483 val_recon=0.351948 util=99.41%
+interaction_vqvae epoch=47/100 train_loss=0.486921 val_recon=0.342394 util=99.02%
+interaction_vqvae epoch=48/100 train_loss=0.487088 val_recon=0.336167 util=99.02%
+interaction_vqvae epoch=49/100 train_loss=0.486932 val_recon=0.336258 util=98.83%
+interaction_vqvae epoch=50/100 train_loss=0.491988 val_recon=0.334854 util=99.12%
+interaction_vqvae epoch=51/100 train_loss=0.496390 val_recon=0.330683 util=99.02%
+interaction_vqvae epoch=52/100 train_loss=0.496245 val_recon=0.330679 util=99.02%
+interaction_vqvae epoch=53/100 train_loss=0.501170 val_recon=0.320531 util=99.22%
+interaction_vqvae epoch=54/100 train_loss=0.504313 val_recon=0.323436 util=98.83%
+interaction_vqvae epoch=55/100 train_loss=0.505105 val_recon=0.324180 util=99.32%
+interaction_vqvae epoch=56/100 train_loss=0.507921 val_recon=0.322892 util=98.63%
+interaction_vqvae epoch=57/100 train_loss=0.512925 val_recon=0.319201 util=99.41%
+interaction_vqvae epoch=58/100 train_loss=0.513401 val_recon=0.318043 util=99.41%
+interaction_vqvae epoch=59/100 train_loss=0.514799 val_recon=0.311924 util=98.73%
+interaction_vqvae epoch=60/100 train_loss=0.514420 val_recon=0.312061 util=99.41%
+interaction_vqvae epoch=61/100 train_loss=0.516895 val_recon=0.306754 util=98.93%
+interaction_vqvae epoch=62/100 train_loss=0.519003 val_recon=0.310905 util=98.63%
+interaction_vqvae epoch=63/100 train_loss=0.519608 val_recon=0.310767 util=99.41%
+interaction_vqvae epoch=64/100 train_loss=0.521069 val_recon=0.301152 util=99.02%
+interaction_vqvae epoch=65/100 train_loss=0.523673 val_recon=0.306462 util=98.73%
+interaction_vqvae epoch=66/100 train_loss=0.527124 val_recon=0.306456 util=98.83%
+interaction_vqvae epoch=67/100 train_loss=0.530756 val_recon=0.304237 util=98.34%
+interaction_vqvae epoch=68/100 train_loss=0.527675 val_recon=0.307924 util=99.41%
+interaction_vqvae epoch=69/100 train_loss=0.525600 val_recon=0.302262 util=99.51%
+interaction_vqvae epoch=70/100 train_loss=0.533689 val_recon=0.303804 util=99.41%
+interaction_vqvae epoch=71/100 train_loss=0.531091 val_recon=0.301835 util=99.32%
+interaction_vqvae epoch=72/100 train_loss=0.533888 val_recon=0.295155 util=99.32%
+interaction_vqvae epoch=73/100 train_loss=0.530235 val_recon=0.305639 util=99.22%
+interaction_vqvae epoch=74/100 train_loss=0.531501 val_recon=0.297868 util=99.41%
+interaction_vqvae epoch=75/100 train_loss=0.534471 val_recon=0.301342 util=99.22%
+interaction_vqvae epoch=76/100 train_loss=0.534579 val_recon=0.298974 util=98.73%
+interaction_vqvae epoch=77/100 train_loss=0.535978 val_recon=0.299155 util=98.93%
+interaction_vqvae epoch=78/100 train_loss=0.538044 val_recon=0.296350 util=99.22%
+interaction_vqvae epoch=79/100 train_loss=0.535889 val_recon=0.301246 util=99.12%
+interaction_vqvae epoch=80/100 train_loss=0.538829 val_recon=0.299819 util=98.83%
+interaction_vqvae epoch=81/100 train_loss=0.540478 val_recon=0.298022 util=99.32%
+interaction_vqvae epoch=82/100 train_loss=0.537998 val_recon=0.302688 util=99.41%
+interaction_vqvae epoch=83/100 train_loss=0.539656 val_recon=0.294806 util=99.12%
+interaction_vqvae epoch=84/100 train_loss=0.538332 val_recon=0.291460 util=98.83%
+interaction_vqvae epoch=85/100 train_loss=0.539220 val_recon=0.294749 util=99.32%
+interaction_vqvae epoch=86/100 train_loss=0.536132 val_recon=0.292212 util=99.02%
+interaction_vqvae epoch=87/100 train_loss=0.540311 val_recon=0.294152 util=98.93%
+interaction_vqvae epoch=88/100 train_loss=0.540824 val_recon=0.293285 util=99.41%
+interaction_vqvae epoch=89/100 train_loss=0.543562 val_recon=0.289652 util=99.61%
+interaction_vqvae epoch=90/100 train_loss=0.539040 val_recon=0.296464 util=99.12%
+interaction_vqvae epoch=91/100 train_loss=0.542040 val_recon=0.291462 util=98.83%
+interaction_vqvae epoch=92/100 train_loss=0.540451 val_recon=0.289402 util=99.02%
+interaction_vqvae epoch=93/100 train_loss=0.541725 val_recon=0.292871 util=98.93%
+interaction_vqvae epoch=94/100 train_loss=0.542709 val_recon=0.293859 util=98.63%
+interaction_vqvae epoch=95/100 train_loss=0.545837 val_recon=0.295334 util=98.73%
+interaction_vqvae epoch=96/100 train_loss=0.546768 val_recon=0.290904 util=98.93%
+interaction_vqvae epoch=97/100 train_loss=0.540962 val_recon=0.289396 util=99.22%
+interaction_vqvae epoch=98/100 train_loss=0.544924 val_recon=0.287102 util=99.22%
+interaction_vqvae epoch=99/100 train_loss=0.545074 val_recon=0.287654 util=98.73%
+interaction_vqvae epoch=100/100 train_loss=0.543875 val_recon=0.291833 util=98.34%
+interaction_vqvae: val recon error=0.291833, codebook utilization=98.34%

@@ -1,0 +1,17 @@
+{
+  "nca": {
+    "gzip_complexity_percent": 83.427525,
+    "path": "/workspace/data/nca_tokenized/tokens.bin",
+    "sample_tokens": 2000000
+  },
+  "physics": {
+    "gzip_complexity_percent": 55.52215,
+    "path": "/workspace/data/physics_tokenized/tokens.bin",
+    "sample_tokens": 2000000
+  },
+  "shuffled": {
+    "gzip_complexity_percent": 76.0432,
+    "path": "/workspace/data/shuffled_tokenized/tokens.bin",
+    "sample_tokens": 2000000
+  }
+}

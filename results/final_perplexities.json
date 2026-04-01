@@ -1,0 +1,30 @@
+{
+  "nca": {
+    "final_val_loss": 5.030725100040436,
+    "final_val_perplexity": 153.0439446428236,
+    "run_name": "nca_lang",
+    "steps": 3815,
+    "tokens_seen": 2000000000
+  },
+  "physics": {
+    "final_val_loss": 5.033169100284576,
+    "final_val_perplexity": 153.4184415297263,
+    "run_name": "physics_lang",
+    "steps": 3815,
+    "tokens_seen": 2000000000
+  },
+  "scratch": {
+    "final_val_loss": 5.054974834918976,
+    "final_val_perplexity": 156.80058439510748,
+    "run_name": "scratch_baseline",
+    "steps": 3815,
+    "tokens_seen": 2000000000
+  },
+  "shuffled": {
+    "final_val_loss": 5.012517185211181,
+    "final_val_perplexity": 150.2825494474985,
+    "run_name": "shuffled_lang",
+    "steps": 3815,
+    "tokens_seen": 2000000000
+  }
+}

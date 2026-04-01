@@ -1,0 +1,15 @@
+{
+  "nca": {
+    "speedup_vs_scratch": 1.2715657552083333,
+    "tokens_to_threshold": 1572864000.0
+  },
+  "physics": {
+    "speedup_vs_scratch": 1.2715657552083333,
+    "tokens_to_threshold": 1572864000.0
+  },
+  "scratch_final_perplexity": 156.80058439510748,
+  "shuffled": {
+    "speedup_vs_scratch": 1.3623918805803572,
+    "tokens_to_threshold": 1468006400.0
+  }
+}

@@ -1,0 +1,38 @@
+\begin{table}[t]
+\centering
+\caption{Pre-pre-training comparison at matched 164M tokens (GPT-2 Small). Lower loss is better.}
+\label{tab:ppt_comparison}
+\begin{tabular}{lrrrrl}
+\hline
+Method & Initial Loss & Final Loss & $\Delta$ Loss & Sample Gzip (\%) & Status \\
+\hline
+Physics & 34.4938 & 8.0187 & -26.4750 & 66.2500 & Complete \\
+Shuffled-Temporal & 34.7027 & 19.8498 & -14.8529 & 66.8750 & Complete \\
+NCA (official data) & 37.4668 & 24.6376 & -12.8291 & 103.6806 & Complete \\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[t]
+\centering
+\caption{Language pre-training comparison snapshot (OpenWebText, 2B-token target).}
+\label{tab:lang_progress_snapshot}
+\begin{tabular}{lrrl}
+\hline
+Method & Tokens Seen & Latest Val PPL & Status \\
+\hline
+Scratch & 2,000,000,000 & 156.8006 & Complete \\
+Physics & 367,001,600 & 343.6753 & In progress \\
+Shuffled-Temporal & -- & -- & Queued \\
+NCA & -- & -- & Queued \\
+\hline
+\end{tabular}
+\end{table}
+
+% Snapshot timestamp: 2026-03-31 (UTC).
+% Source files:
+% /workspace/models/physics_ppt/training_summary.json
+% /workspace/models/shuffled_ppt/training_summary.json
+% /workspace/models/nca_ppt/training_summary.json
+% /workspace/checkpoints/scratch/training_summary.json
+% /workspace/checkpoints/physics/logs/train_metrics.csv

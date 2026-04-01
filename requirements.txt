@@ -1,0 +1,16 @@
+torch
+torchvision
+torchaudio
+transformers
+datasets
+tokenizers
+accelerate
+wandb
+scipy
+numpy
+tqdm
+h5py
+matplotlib
+seaborn
+tiktoken
+sentencepiece
