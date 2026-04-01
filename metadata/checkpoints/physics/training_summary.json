@@ -1,0 +1,11 @@
+{
+  "final_train_loss": 323.83253717422485,
+  "final_val_loss": 5.033169100284576,
+  "final_val_perplexity": 153.4184415297263,
+  "init_from": "/workspace/models/physics_ppt",
+  "initial_train_loss": 705.8674249649048,
+  "reinit_modules": [],
+  "run_name": "physics_lang",
+  "steps": 3815,
+  "tokens_seen": 2000000000
+}

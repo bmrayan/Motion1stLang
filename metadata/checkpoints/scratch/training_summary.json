@@ -1,0 +1,11 @@
+{
+  "final_train_loss": 325.1912236213684,
+  "final_val_loss": 5.054974834918976,
+  "final_val_perplexity": 156.80058439510748,
+  "init_from": "scratch",
+  "initial_train_loss": 702.8169765472412,
+  "reinit_modules": [],
+  "run_name": "scratch_baseline",
+  "steps": 3815,
+  "tokens_seen": 2000000000
+}

@@ -1,0 +1,8 @@
+{
+  "codebook_utilization": 99.951171875,
+  "epoch": 100,
+  "model_path": "/workspace/models/vqvae/kinematic_vqvae.pt",
+  "stats_path": "/workspace/models/vqvae/kinematic_stats.npz",
+  "train_loss": 0.7227060377247615,
+  "val_recon_error": 0.35334343024206727
+}

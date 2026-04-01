@@ -1,0 +1,105 @@
+{
+  "num_unique_tokens": 10002,
+  "top_tokens": [
+    {
+      "count": 52632,
+      "frequency": 0.026316,
+      "token_id": 10000
+    },
+    {
+      "count": 52631,
+      "frequency": 0.0263155,
+      "token_id": 10001
+    },
+    {
+      "count": 9109,
+      "frequency": 0.0045545,
+      "token_id": 4444
+    },
+    {
+      "count": 7605,
+      "frequency": 0.0038025,
+      "token_id": 0
+    },
+    {
+      "count": 6988,
+      "frequency": 0.003494,
+      "token_id": 8888
+    },
+    {
+      "count": 6480,
+      "frequency": 0.00324,
+      "token_id": 7777
+    },
+    {
+      "count": 6328,
+      "frequency": 0.003164,
+      "token_id": 6666
+    },
+    {
+      "count": 6270,
+      "frequency": 0.003135,
+      "token_id": 5555
+    },
+    {
+      "count": 6228,
+      "frequency": 0.003114,
+      "token_id": 2222
+    },
+    {
+      "count": 5980,
+      "frequency": 0.00299,
+      "token_id": 3333
+    },
+    {
+      "count": 5769,
+      "frequency": 0.0028845,
+      "token_id": 1111
+    },
+    {
+      "count": 5025,
+      "frequency": 0.0025125,
+      "token_id": 9999
+    },
+    {
+      "count": 1445,
+      "frequency": 0.0007225,
+      "token_id": 5050
+    },
+    {
+      "count": 1400,
+      "frequency": 0.0007,
+      "token_id": 6262
+    },
+    {
+      "count": 1380,
+      "frequency": 0.00069,
+      "token_id": 7474
+    },
+    {
+      "count": 1374,
+      "frequency": 0.000687,
+      "token_id": 4747
+    },
+    {
+      "count": 1328,
+      "frequency": 0.000664,
+      "token_id": 7711
+    },
+    {
+      "count": 1312,
+      "frequency": 0.000656,
+      "token_id": 7771
+    },
+    {
+      "count": 1300,
+      "frequency": 0.00065,
+      "token_id": 8777
+    },
+    {
+      "count": 1298,
+      "frequency": 0.000649,
+      "token_id": 4447
+    }
+  ]
+}

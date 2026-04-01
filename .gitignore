@@ -9,10 +9,10 @@ __pycache__/
 venv/
 
 # Large generated assets (not committed)
-data/
-models/
-checkpoints/
-repos/
+/data/
+/models/
+/checkpoints/
+/repos/
 
 # Local runtime artifacts
 *.tmp

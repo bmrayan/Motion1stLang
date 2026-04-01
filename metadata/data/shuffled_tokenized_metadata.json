@@ -1,0 +1,126 @@
+{
+  "feature_key": "features",
+  "include_interactions": true,
+  "input_dir": "/workspace/data/shuffled_temporal",
+  "output_dir": "/workspace/data/shuffled_tokenized",
+  "sequence_count": 470000,
+  "sequence_length_summary": {
+    "count": 470000,
+    "max": 1155.0,
+    "mean": 368.0070531914894,
+    "min": 63.0,
+    "std": 199.21399128222126
+  },
+  "special_tokens": {
+    "interaction_offset": 4098,
+    "scene": 4097,
+    "sep": 4096
+  },
+  "token_frequency_summary": {
+    "num_unique_tokens": 5094,
+    "top_tokens": [
+      {
+        "count": 21792,
+        "frequency": 0.010896,
+        "token_id": 4096
+      },
+      {
+        "count": 5419,
+        "frequency": 0.0027095,
+        "token_id": 4097
+      },
+      {
+        "count": 2245,
+        "frequency": 0.0011225,
+        "token_id": 2400
+      },
+      {
+        "count": 2087,
+        "frequency": 0.0010435,
+        "token_id": 1678
+      },
+      {
+        "count": 1901,
+        "frequency": 0.0009505,
+        "token_id": 2193
+      },
+      {
+        "count": 1888,
+        "frequency": 0.000944,
+        "token_id": 3468
+      },
+      {
+        "count": 1883,
+        "frequency": 0.0009415,
+        "token_id": 446
+      },
+      {
+        "count": 1848,
+        "frequency": 0.000924,
+        "token_id": 314
+      },
+      {
+        "count": 1815,
+        "frequency": 0.0009075,
+        "token_id": 1853
+      },
+      {
+        "count": 1791,
+        "frequency": 0.0008955,
+        "token_id": 2621
+      },
+      {
+        "count": 1756,
+        "frequency": 0.000878,
+        "token_id": 1696
+      },
+      {
+        "count": 1737,
+        "frequency": 0.0008685,
+        "token_id": 3892
+      },
+      {
+        "count": 1733,
+        "frequency": 0.0008665,
+        "token_id": 2397
+      },
+      {
+        "count": 1731,
+        "frequency": 0.0008655,
+        "token_id": 1157
+      },
+      {
+        "count": 1719,
+        "frequency": 0.0008595,
+        "token_id": 3949
+      },
+      {
+        "count": 1704,
+        "frequency": 0.000852,
+        "token_id": 1580
+      },
+      {
+        "count": 1671,
+        "frequency": 0.0008355,
+        "token_id": 3080
+      },
+      {
+        "count": 1666,
+        "frequency": 0.000833,
+        "token_id": 4030
+      },
+      {
+        "count": 1664,
+        "frequency": 0.000832,
+        "token_id": 3943
+      },
+      {
+        "count": 1645,
+        "frequency": 0.0008225,
+        "token_id": 2705
+      }
+    ]
+  },
+  "total_tokens": 172963315,
+  "vocab_size": 5122
+}

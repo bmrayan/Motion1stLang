@@ -1,0 +1,7 @@
+{
+  "feature_rows_total": 169142349,
+  "input_dir": "/workspace/data/synthetic_physics",
+  "interaction_rows_total": 1471553,
+  "num_shards": 47,
+  "output_dir": "/workspace/data/shuffled_temporal"
+}

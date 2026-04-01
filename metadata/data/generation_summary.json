@@ -1,0 +1,28 @@
+{
+  "total_scenes_generated": 470000,
+  "total_feature_vectors": 169142349,
+  "contacts_per_scene": {
+    "count": 470000,
+    "mean": 0.8874787234042553,
+    "std": 2.078770254459088,
+    "min": 0.0,
+    "max": 128.0
+  },
+  "tokens_per_scene": {
+    "count": 470000,
+    "mean": 368.0070531914894,
+    "std": 199.21399128222123,
+    "min": 63.0,
+    "max": 1155.0
+  },
+  "trajectory_smoothness_check": {
+    "max": 1.2172914743423462,
+    "mean": 0.4737466464961317,
+    "median": 0.536914736032486,
+    "min": 0.027941947802901268,
+    "std": 0.1799707109470425
+  },
+  "shards_written": 47,
+  "finalized_from_existing_shards": true,
+  "analysis_source": "/workspace/results/physics_data_quality.json"
+}

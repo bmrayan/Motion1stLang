@@ -1,0 +1,8 @@
+{
+  "codebook_utilization": 98.33984375,
+  "epoch": 100,
+  "model_path": "/workspace/models/vqvae/interaction_vqvae.pt",
+  "stats_path": "/workspace/models/vqvae/interaction_stats.npz",
+  "train_loss": 0.5438749637578966,
+  "val_recon_error": 0.29183295369148254
+}

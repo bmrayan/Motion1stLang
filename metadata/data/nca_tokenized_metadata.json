@@ -1,0 +1,37 @@
+{
+  "dT": 1,
+  "filter_rules_mode": "gzip",
+  "filter_rules_threshold_raw": 0.5,
+  "filter_rules_upper_bound_raw": 1.0,
+  "grid": 12,
+  "gzip_complexity_percent": {
+    "max": 93.81091617933723,
+    "mean": 83.4049728486362,
+    "min": 2.241715399610136,
+    "std": 6.760983656023752
+  },
+  "identity_bias": 0.0,
+  "init_rollout_steps": 10,
+  "num_colors": 10,
+  "num_examples_per_sequence": 27,
+  "patch": 2,
+  "repo_dir": "/workspace/repos/nca-pre-pretraining",
+  "seq_len_target": 1024,
+  "sequence_lengths": {
+    "max": 1026,
+    "mean": 1026.0,
+    "min": 1026,
+    "std": 0.0
+  },
+  "sequences_kept": 159845,
+  "source": "official_han_repo",
+  "special_tokens": {
+    "end": 10001,
+    "start": 10000
+  },
+  "target_tokens": 164000000,
+  "temperature": 0.0001,
+  "token_path": "/workspace/data/nca_tokenized/tokens.bin",
+  "tokens_written": 164000970,
+  "vocab_size": 10002
+}

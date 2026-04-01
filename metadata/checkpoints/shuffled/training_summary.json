@@ -1,0 +1,11 @@
+{
+  "final_train_loss": 322.4580144882202,
+  "final_val_loss": 5.012517185211181,
+  "final_val_perplexity": 150.2825494474985,
+  "init_from": "/workspace/models/shuffled_ppt",
+  "initial_train_loss": 696.0961112976074,
+  "reinit_modules": [],
+  "run_name": "shuffled_lang",
+  "steps": 3815,
+  "tokens_seen": 2000000000
+}

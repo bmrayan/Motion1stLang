@@ -1,0 +1,37 @@
+{
+  "dT": 1,
+  "filter_rules_mode": "gzip",
+  "filter_rules_threshold_raw": 0.5,
+  "filter_rules_upper_bound_raw": 1.0,
+  "grid": 12,
+  "gzip_complexity_percent": {
+    "max": 89.76608187134502,
+    "mean": 82.41045321637426,
+    "min": 70.12670565302143,
+    "std": 5.628799183352506
+  },
+  "identity_bias": 0.0,
+  "init_rollout_steps": 10,
+  "num_colors": 10,
+  "num_examples_per_sequence": 27,
+  "patch": 2,
+  "repo_dir": "/workspace/repos/nca-pre-pretraining",
+  "seq_len_target": 1024,
+  "sequence_lengths": {
+    "max": 1026,
+    "mean": 1026.0,
+    "min": 1026,
+    "std": 0.0
+  },
+  "sequences_kept": 16,
+  "source": "official_han_repo",
+  "special_tokens": {
+    "end": 10001,
+    "start": 10000
+  },
+  "target_tokens": 20000,
+  "temperature": 0.0001,
+  "token_path": "/workspace/data/nca_tokenized_official_smoke/tokens.bin",
+  "tokens_written": 16416,
+  "vocab_size": 10002
+}

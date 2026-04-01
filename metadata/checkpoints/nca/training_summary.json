@@ -1,0 +1,11 @@
+{
+  "final_train_loss": 323.45555686950684,
+  "final_val_loss": 5.030725100040436,
+  "final_val_perplexity": 153.0439446428236,
+  "init_from": "/workspace/models/nca_ppt",
+  "initial_train_loss": 702.5706367492676,
+  "reinit_modules": [],
+  "run_name": "nca_lang",
+  "steps": 3815,
+  "tokens_seen": 2000000000
+}
